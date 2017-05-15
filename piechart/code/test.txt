@@ -1,0 +1,2 @@
+Sample	exonic	intronic	UTR3	UTR5	intergenic	ncRNA_exonic	ncRNA_intronic	upstream	downstream	splicing	ncRNA_UTR3	ncRNA_UTR5	ncRNA_splicing
+XQJ13957700063	22810	92359	4609	2805	40293	3023	7803	3213	1628	2512	0	0	99

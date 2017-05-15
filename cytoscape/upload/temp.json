@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "type": "source", 
+        "id": "has-miR-20"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "AK2"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "RAN"
+      }
+    }, 
+    {
+      "data": {
+        "type": "source", 
+        "id": "RAN"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "has-miR-20"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "TPI1"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "ATL2"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "OLA1"
+      }
+    }, 
+    {
+      "data": {
+        "type": "source", 
+        "id": "has-miR-22"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "SMC2"
+      }
+    }, 
+    {
+      "data": {
+        "type": "source", 
+        "id": "has-miR-36"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "CALD1"
+      }
+    }, 
+    {
+      "data": {
+        "type": "target", 
+        "id": "NAP1L1"
+      }
+    }
+  ], 
+  "edges": [
+    {
+      "data": {
+        "source": "has-miR-20", 
+        "type": "1", 
+        "target": "AK2"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-20", 
+        "type": "1", 
+        "target": "RAN"
+      }
+    }, 
+    {
+      "data": {
+        "source": "RAN", 
+        "type": "1", 
+        "target": "has-miR-20"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-20", 
+        "type": "2", 
+        "target": "TPI1"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-20", 
+        "type": "2", 
+        "target": "ATL2"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-20", 
+        "type": "1", 
+        "target": "OLA1"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-22", 
+        "type": "1", 
+        "target": "TPI1"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-22", 
+        "type": "1", 
+        "target": "ATL2"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-22", 
+        "type": "2", 
+        "target": "SMC2"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-36", 
+        "type": "2", 
+        "target": "TPI1"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-36", 
+        "type": "2", 
+        "target": "CALD1"
+      }
+    }, 
+    {
+      "data": {
+        "source": "has-miR-36", 
+        "type": "2", 
+        "target": "NAP1L1"
+      }
+    }
+  ]
+}

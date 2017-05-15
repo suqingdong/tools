@@ -1,0 +1,59 @@
+<div id="cy" style="width:80%;height:500px;border:solid 1px #ccc;">
+</div>
+
+
+
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/cytoscape.min.js"></script>
+
+
+<script>
+
+var elements = 1;
+
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if(xmlhttp.readyState===4&&xmlhttp.status===200){
+    elements = JSON.parse(xmlhttp.responseText);
+  }
+}
+ 
+xmlhttp.open('GET', 'upload/temp.json', false);  //false:同步 true:同步
+xmlhttp.send();
+
+
+var cy = cytoscape({
+
+  container: document.getElementById('cy'),
+
+  elements: elements,
+
+  style: [ // the stylesheet for the graph
+    {
+      selector: 'node',
+      style: {
+        'background-color': 'yellow',
+        'label': 'data(id)',
+      }
+    },
+
+    {
+      selector: 'edge',
+      style: {
+        'width': 1,
+        'line-color': '#ccc',
+        'target-arrow-color': '#ccc',
+        'target-arrow-shape': 'triangle'
+      }
+    }
+  ],
+
+  layout: {
+    name: 'random',
+  }
+  
+});
+
+
+</script>

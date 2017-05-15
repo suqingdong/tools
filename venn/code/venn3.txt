@@ -1,0 +1,6 @@
+Sample1	Sample2	Sample3	Sample4	Sample5
+Gene1	Gene1	Gene1	Gene1	Gene1
+Gene2	Gene2	Gene4	Gene3	Gene5
+Gene3	Gene5	Gene5	Gene5	Gene9
+Gene6	Gene7	Gene8	Gene7	Gene10
+''	Gene9	''	Gene9	''
